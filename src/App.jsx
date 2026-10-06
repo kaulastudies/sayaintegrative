@@ -61,7 +61,7 @@ export default function App() {
           <div 
             className="absolute inset-[-10%] w-[120%] h-[120%] bg-cover bg-no-repeat transition-all ease-[cubic-bezier(0.7,0,0.2,1)]"
             style={{
-              backgroundImage: "url('/portal_mouth.jpg')",
+              backgroundImage: "url('./portal_mouth.jpg')",
               backgroundPosition: '50% 38%',
               filter: 'grayscale(100%) contrast(115%) brightness(60%)',
               transformOrigin: '50% 55%',
@@ -208,7 +208,7 @@ export default function App() {
             <div className="md:col-span-5 relative">
               <div className="relative rounded-2xl overflow-hidden border border-white/15 bg-black/40 aspect-[4/5] shadow-2xl">
                 <img 
-                  src="/portal_mouth.jpg" 
+                  src="./portal_mouth.jpg" 
                   alt="Threshold Gateway" 
                   className="w-full h-full object-cover filter grayscale contrast-125"
                 />
